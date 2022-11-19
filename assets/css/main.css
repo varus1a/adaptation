@@ -1,0 +1,245 @@
+* {
+    font-family: 'Fira Sans', sans-serif;
+ }
+ 
+h1 {
+   font-size: 44px;
+   color: #111238;
+   font-weight: 900;
+   line-height: 53px;
+   letter-spacing: 0;
+   text-align: left;
+}
+h4 {
+   font-size: 16px;
+   color: #111238;
+   font-weight: 400;
+   line-height: 25px;
+   letter-spacing: 0;
+   text-align: left; 
+}
+p {
+   font-size: 18px;
+   color: #111238;
+   font-weight: 400;
+   line-height: 25px;
+   letter-spacing: 0;
+   text-align: left; 
+}
+h5 {
+   font-size: 18px;
+   color: #111238;
+   font-weight: 400;
+   line-height: 19px;
+   letter-spacing: 0;
+   text-align: left; 
+}
+button {
+   color : #FFFFFF;
+   background: #1A75E8;
+   border-radius: 5px;
+   border: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 15px 30px;
+   gap: 10px;
+}
+button:hover{
+  background-color: #5c9ceb;
+  box-shadow: 0px 0px 25px 4px rgba(15, 17, 56, 0.1);
+  transition: 1s;
+}
+.section {
+   width: 1440px;
+   height: 782px;
+   left: 0;
+   top:0;
+   background: #F2F3F6;
+   justify-content: center;
+}
+.section .conteiner {
+   width: 1440px;
+   height: 782px;
+   left: 0;
+   top:0;
+   background: #F2F3F6;
+   align-items: center;
+}
+.conteiner  .hero {
+   width: 1132.11px;
+   height: 557.49px; 
+   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  }
+  .conteiner .hero .hero-text {
+   width: 460px;
+   height: 348px;
+  }
+  .hero-text > .text > h1 {
+     width: 460px;
+     height: 106px;
+     left: 147px;
+     top: 211px;
+  }
+  .hero-text > .text > p {
+   width: 460px;
+   height: 75px;
+   left: 147px;
+   top: 332px;
+   }
+   .hero .input-group  .input > input {
+      width: 447px;
+      height: 70px;
+      left: 147px;
+      top: 437px;
+      background: #FFFFFF;
+      border: 1px solid rgba(209, 209, 209, 0.1) ;
+      box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+      border-radius: 5px;
+   }
+   .hero .hero-text .btn {
+      height: 49px;
+      width: 211px;
+      position: absolute;
+      right: 856px;
+      top: 448px;
+   }
+   .hero .hero-text .btn > button {
+      height: 49px;
+      width: 211px;
+   }
+   .hero .hero-text .btn  button >h4 {
+      color: #FFFFFF;
+   }
+  
+   .hero .hero-text .example > h5 {
+      width: 345px;
+      height: 27px;
+      left: 157px;
+      top: 537px;
+   }
+   .hero .hero-text .example h5 > span {
+      border-radius: 6px;
+      border: #b2b2b2 solid 3px;
+      margin-left: 6px;
+     padding: 5px;
+   }
+   .hero .hero-image {
+      width: 544.11px;
+      height: 557.49px;
+      left: 735px;
+      top: 168px;
+   }
+   
+   
+
+ @media screen and (max-width: 320px) {
+ 
+    body {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    h1 {
+      line-height: 30px;
+      font-size: 24px;
+      margin-top: 30px;
+      text-align: center;
+      width: 235px;
+      height: 58px;
+  }
+
+  p {
+      width: 290px;
+      height: 88px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      text-align: center;
+  }
+
+  h5 {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;}
+ 
+    .section .container{
+       width: 320px;
+       height: 783px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+   .container .hero {
+      width: 320px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .hero .hero-text {
+      width: 320px;
+      height: 80px;
+   }
+   .hero-text .input-group .input > input {
+      width: 290px;
+      height: 70px;
+      background: #FFFFFF ;
+      border: 1px solid rgba(209, 209, 209, 0.1);
+      box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+      border-radius: 5px;
+      margin-top: 30px;
+   }
+   .hero > .hero-text .btn {
+      width: 0px;
+      height: 45px;
+      overflow: hidden;
+  }
+
+
+  .hero > .hero-text .example  h5{
+      width: 320px;
+      height: 77px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+
+  .hero > .hero-text .example {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      gap: 15px;
+      width: 320px;
+      height: 59px;
+      margin-top: 20px;
+  }
+  
+  .hero .hero-img {
+      width: 252.45px;
+      height: 258.65px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .hero .hero-img img {
+      width: 250px;
+      height: 258px;
+  }
+  
+}
+
+
+
+
+
+
+ 
